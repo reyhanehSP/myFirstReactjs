@@ -1,0 +1,52 @@
+{
+  "title":"I am Reyhaneh",
+  "subtitle":"Front-end Developer",
+  "links":{
+    "github":"https://github.com/reyhanehSP",
+    "stackoverflow":"https://stackoverflow.com/story/reyhanehsp",
+    "linkdin":"https://www.linkedin.com/in/reyhaneh-sanatpisheh-270771163"
+  },
+  "sections":[
+    {
+      "title":"p",
+      "items":[
+        {
+          "type":"p",
+          "content":"fjhhhhhhhhhhhbldfjvb"
+        }
+      ]
+    },
+    {
+      "title":"p",
+      "items":[
+        {
+          "type":"card",
+          "content":[
+            {
+              "image":"url",
+              "title":"react"
+            }
+          ]
+        },
+        {
+          "type":"card",
+          "content":[
+            {
+              "image":"url",
+              "title":"js"
+            }
+          ]
+        },
+        {
+          "type":"card",
+          "content":[
+            {
+              "image":"url",
+              "title":"css"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
