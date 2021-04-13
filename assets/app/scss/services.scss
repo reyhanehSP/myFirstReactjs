@@ -1,0 +1,74 @@
+.Services{
+  margin-top: 5%;
+}
+.titleName {
+  display: block;
+  margin-top: 190px;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+  text-align: left;
+  color: #bfbfbf;
+  font-weight: 600;
+  font-family: Karla,Arial,sans-serif;
+}
+.titleProps {
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 1.5em;
+  color: #000;
+  margin-top: 30px;
+  position: relative;
+  text-align: left;
+  font-family: "playfair Display";
+}
+.roteName {
+  font-family: Karla,Arial,sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1em;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  -webkit-transform-origin: left top 0;
+  transform-origin: left top 0;
+  position: relative;
+  margin-top: 10px;
+  left: 0;
+  &::after {
+    position: absolute;
+    top: 8px;
+    right: -158px;
+    content: "";
+    background: #000;
+    width: 40px;
+    height: 1px;
+  }
+}
+.ListSkills {
+  list-style: none;
+  li {
+    list-style: none;
+    margin-bottom: 10px;
+    &::before {
+      content: "\2022";
+      color: #000;
+      display: inline-block;
+      width: 1em;
+      margin-left: -1em;
+    }
+  }
+}
+.services-image{
+  margin-top: 16%;
+}
+.FrontText {
+  display: block;
+  font-size: 15px;
+  letter-spacing: 3px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: #000;
+  font-weight: 700;
+}
