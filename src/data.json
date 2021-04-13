@@ -67,12 +67,14 @@
             {
               "sDate" : "2018",
               "eDate" : "2019",
+              "month" : "January",
               "companyName" : "Sezaar",
               "caption" : "Front End Developer"
             },
             {
               "sDate" : "2019",
               "eDate" : "Now",
+              "month" : "May",
               "companyName" : "Tunnel",
               "caption" : "Front End Developer"
             }

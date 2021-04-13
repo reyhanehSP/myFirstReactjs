@@ -45,8 +45,8 @@ class Work extends React.Component{
                             <div className="col-md-3">
                                 <p className="monthAll text-left">{data.sections[2].items[0].listWork[1].month}</p>
                                 <p className="yearWorks">
-                                    <span>{data.sections[2].items[0].listWork[0].sDate}</span> -
-                                    <span className="colorSpan">{data.sections[2].items[0].listWork[1].eDate}</span>
+                                    <span>{data.sections[2].items[0].listWork[1].sDate} </span> -
+                                     <span className="colorSpan">{data.sections[2].items[0].listWork[1].eDate}</span>
                                 </p>
                                 <hr className="hrNow" />
                                 <p className="WorkName companyName text-right">
@@ -70,7 +70,7 @@ class Work extends React.Component{
                             <div className="col-md-3">
                                 <p className="monthAll text-left">{data.sections[2].items[0].listWork[2].month}</p>
                                 <p className="yearWorks">
-                                    <span>{data.sections[2].items[0].listWork[0].sDate}</span> -
+                                    <span>{data.sections[2].items[0].listWork[2].sDate} </span> -
                                     <span className="colorSpan">{data.sections[2].items[0].listWork[2].eDate}</span>
                                 </p>
                                 <hr className="hrNow" />
