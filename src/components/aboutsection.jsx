@@ -2,18 +2,16 @@ import React from "react";
 import data from "../data";
 import {SocialIcon} from "react-social-icons";
 
-// import Profile from "../../public/dest/images/profile.jpg";
-
 class AboutSection extends React.Component {
     render() {
         return (
                 <div className="container">
                     <div className="row">
-                        <h2 className="boldTitle">About</h2>
+                        <h2 className="boldTitle"> {data.sections[0].items[0].type}</h2>
                     </div>
                     <div className="row aboutSection">
                         <div className="col-md-6 text-left">
-                            <img src="/dest/images/profile.jpg" className="img-fluid"/>
+                            <img src={data.sections[0].items[1].image} className="img-fluid"/>
                         </div>
                         <div className="col-md-6">
                             <div className="row">
@@ -23,7 +21,7 @@ class AboutSection extends React.Component {
                             <div className="row">
                                 <div className="col-md-1">
                                     <p className="heading">
-                                        About
+                                        {data.sections[0].items[0].type}
                                     </p>
                                 </div>
                                 <div className="col-md-10">

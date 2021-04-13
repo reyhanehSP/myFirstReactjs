@@ -1,8 +1,8 @@
 import React from 'react';
-import AboutSection from './components/aboutsection';
-import SkillSection from "./components/skillsection";
-import Services from "./components/services";
 import Navbar from "./components/navbar";
+import AboutSection from './components/aboutsection';
+import Services from "./components/services";
+import Works from "./components/works";
 
 class App extends React.Component {
     render() {
@@ -11,7 +11,7 @@ class App extends React.Component {
                 <Navbar/>
                 <AboutSection/>
                 <Services/>
-                <SkillSection/>
+                <Works/>
             </div>
         );
     }
