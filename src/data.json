@@ -8,11 +8,12 @@
   },
   "sections":[
     {
-      "title":"p",
+      "fName":"Reyhaneh",
+      "lName":"SanatPisheh",
       "items":[
         {
-          "type":"p",
-          "content":"fjhhhhhhhhhhhbldfjvb"
+          "type":"About",
+          "content":"Reyhaneh is a motivated developer who writes reliable, modular, well-tested and clean code. Collaborates to deliver solutions from design to release. she’s also passionate about problem solving, open-source and always eager to learn new things."
         }
       ]
     },

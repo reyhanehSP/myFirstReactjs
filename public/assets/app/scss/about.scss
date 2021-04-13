@@ -1,0 +1,68 @@
+
+@font-face {
+  font-family: 'playfair Display';
+  url :'../fonts/Playfair_Display/static/PlayfairDisplay-Bold.ttf' format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-variant: normal;
+}
+.boldTitle {
+  position: absolute;
+  left: 0;
+  right: 0;
+  font-size: 250px;
+  color: #f0f0f0;
+  font-weight: 700;
+  font-family: "playfair Display";
+}
+.aboutSection{
+  margin-top: 18%;
+  align-items: flex-start;
+  img{
+    filter: grayscale(.8);
+  }
+}
+.firstName , .lastName{
+  font-family: "playfair Display";
+  text-align: left;
+  font-size: 50px;
+  width: 100%;
+}
+.lastName{
+  margin-bottom: 5%;
+}
+.heading {
+  font-family: Karla,Arial,sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1em;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  -webkit-transform-origin: left top 0;
+  transform-origin: left top 0;
+  position: relative;
+  &::after {
+  position: absolute;
+  top: 8px;
+  right: -145px;
+  content: "";
+  background: #000;
+  width: 40px;
+  height: 1px;
+}
+}
+.aboutText{
+  text-align: left;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+.social-media {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-top: 8%;
+  a {
+    margin: 0 10px;
+  }
+}
