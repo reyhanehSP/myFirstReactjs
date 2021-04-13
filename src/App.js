@@ -3,6 +3,7 @@ import Navbar from "./components/navbar";
 import AboutSection from './components/aboutsection';
 import Services from "./components/services";
 import Works from "./components/works";
+import PortFolio from "./components/portfolio";
 
 class App extends React.Component {
     render() {
@@ -12,6 +13,7 @@ class App extends React.Component {
                 <AboutSection/>
                 <Services/>
                 <Works/>
+                <PortFolio/>
             </div>
         );
     }
