@@ -2,7 +2,7 @@
   "name": "myfirstreact",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://reyhanehSp.github.io/myfirstreactjs",
+  "homepage": "https://reyhanehSP.github.io/myfirstreactjs",
   "dependencies": {
     "@bumaga/tabs": "^0.2.0",
     "@testing-library/jest-dom": "^4.2.4",
