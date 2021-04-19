@@ -8,43 +8,86 @@
   },
   "sections":[
     {
-      "title":"p",
+      "fName":"Reyhaneh",
+      "lName":"SanatPisheh",
       "items":[
         {
-          "type":"p",
-          "content":"fjhhhhhhhhhhhbldfjvb"
+          "type":"About",
+          "content":"Reyhaneh is a motivated developer who writes reliable, modular, well-tested and clean code. Collaborates to deliver solutions from design to release. she’s also passionate about problem solving, open-source and always eager to learn new things."
+        },
+        {
+          "image":"/dest/images/profile.jpg"
         }
       ]
     },
     {
-      "title":"p",
+      "title":"Services",
       "items":[
         {
-          "type":"card",
+          "type":"My Services",
           "content":[
             {
-              "image":"url",
-              "title":"react"
+              "title":"Here Are Some of My Skills",
+              "title2":"Front End Development",
+              "image":"/dest/images/services.jpg"
+            }
+          ],
+          "listSkills":[
+            {
+              "skill1":"HTML5",
+              "skill2":"CSS3 &amp; SCSS",
+              "skill3":"bootstrap",
+              "skill4":"JAVASCRIPT",
+              "skill5":"JQUERY",
+              "skill6":"REACT JS",
+              "skill7":"GULP JS",
+              "skill8":"RESPONSIVE WEB",
+              "skill9":"FLEXBOX",
+              "skill10":"GIT",
+              "skill11":"SCRUM"
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "title":"Works",
+      "items":[
         {
-          "type":"card",
-          "content":[
+          "type" : "Work Experience",
+          "content" : "MY PROFESSIONAL BACKGROUND",
+          "listWork":[
             {
-              "image":"url",
-              "title":"js"
+              "sDate" : "2017",
+              "eDate" : "2018",
+              "month" : "May",
+              "companyName" : "Self Study",
+              "caption" : "Front End Developer - self employed"
+            },
+            {
+              "sDate" : "2018",
+              "eDate" : "2019",
+              "month" : "January",
+              "companyName" : "Sezaar",
+              "caption" : "Front End Developer"
+            },
+            {
+              "sDate" : "2019",
+              "eDate" : "Now",
+              "month" : "May",
+              "companyName" : "Tunnel",
+              "caption" : "Front End Developer"
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "title":"Portfolio",
+      "items":[
         {
-          "type":"card",
-          "content":[
-            {
-              "image":"url",
-              "title":"css"
-            }
-          ]
+          "type":"My Portfolio",
+          "content":"Done Projects"
         }
       ]
     }

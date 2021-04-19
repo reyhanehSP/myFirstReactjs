@@ -1,19 +1,26 @@
 import React from "react";
+import Logo from "../logo.svg"
 
-// Stateless Functional Component
-
-const NavBar = ({ totalCounters }) => {
-  return (
-    <nav className="navbar navbar-light bg-light">
-      <div className="navbar-brand">
-        <i className="fa fa-shopping-cart fa-lg m-2" aria-hidden="true" />
-        <span className="badge badge-pill badge-info m-2" style={{ width: 50 }}>
-          {totalCounters}
-        </span>
-        Items
-      </div>
-    </nav>
-  );
-};
-
-export default NavBar;
+class Navbar extends React.Component{
+    render(){
+        return(
+            <div className="container">
+                <div className="row">
+                    <div className="col-md-12">
+                        <div className="navbar-menu">
+                            <a href="">
+                                <img src={Logo}/>
+                            </a>
+                            <ul>
+                                <li><a>About</a></li>
+                                <li><a>Services</a></li>
+                                <li><a>Skills</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        )
+    }
+}
+export default Navbar;

@@ -1,0 +1,28 @@
+.navbar-menu{
+  background-color: #f4f4f4;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  padding:19px 15px;
+  img{
+    max-width: 60px;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+  }
+  ul{
+    list-style: none;
+    display: flex;
+    margin-bottom: 0;
+    padding: 0;
+    li{
+      margin-right: 15px;
+        a{
+          color: #000;
+          font-weight: 500;
+          font-family: "playfair Display";
+        }
+    }
+  }
+
+}
