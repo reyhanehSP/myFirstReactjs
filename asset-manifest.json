@@ -1,27 +1,27 @@
 {
   "files": {
     "main.css": "/myFirstReactjs/static/css/main.023ac346.chunk.css",
-    "main.js": "/myFirstReactjs/static/js/main.caa95571.chunk.js",
-    "main.js.map": "/myFirstReactjs/static/js/main.caa95571.chunk.js.map",
+    "main.js": "/myFirstReactjs/static/js/main.50d5d07e.chunk.js",
+    "main.js.map": "/myFirstReactjs/static/js/main.50d5d07e.chunk.js.map",
     "runtime-main.js": "/myFirstReactjs/static/js/runtime-main.3893c584.js",
     "runtime-main.js.map": "/myFirstReactjs/static/js/runtime-main.3893c584.js.map",
-    "static/css/2.234d03a3.chunk.css": "/myFirstReactjs/static/css/2.234d03a3.chunk.css",
-    "static/js/2.fc866eb8.chunk.js": "/myFirstReactjs/static/js/2.fc866eb8.chunk.js",
-    "static/js/2.fc866eb8.chunk.js.map": "/myFirstReactjs/static/js/2.fc866eb8.chunk.js.map",
+    "static/css/2.646a3b66.chunk.css": "/myFirstReactjs/static/css/2.646a3b66.chunk.css",
+    "static/js/2.5d7fae6b.chunk.js": "/myFirstReactjs/static/js/2.5d7fae6b.chunk.js",
+    "static/js/2.5d7fae6b.chunk.js.map": "/myFirstReactjs/static/js/2.5d7fae6b.chunk.js.map",
     "index.html": "/myFirstReactjs/index.html",
-    "precache-manifest.fdb5e35240f114eef405a87ba205844a.js": "/myFirstReactjs/precache-manifest.fdb5e35240f114eef405a87ba205844a.js",
+    "precache-manifest.d91e035916fb436eecda7cb111656765.js": "/myFirstReactjs/precache-manifest.d91e035916fb436eecda7cb111656765.js",
     "service-worker.js": "/myFirstReactjs/service-worker.js",
-    "static/css/2.234d03a3.chunk.css.map": "/myFirstReactjs/static/css/2.234d03a3.chunk.css.map",
+    "static/css/2.646a3b66.chunk.css.map": "/myFirstReactjs/static/css/2.646a3b66.chunk.css.map",
     "static/css/main.023ac346.chunk.css.map": "/myFirstReactjs/static/css/main.023ac346.chunk.css.map",
-    "static/js/2.fc866eb8.chunk.js.LICENSE.txt": "/myFirstReactjs/static/js/2.fc866eb8.chunk.js.LICENSE.txt",
+    "static/js/2.5d7fae6b.chunk.js.LICENSE.txt": "/myFirstReactjs/static/js/2.5d7fae6b.chunk.js.LICENSE.txt",
     "static/media/font-awesome.min.css": "/myFirstReactjs/static/media/fontawesome-webfont.fee66e71.woff",
     "static/media/logo.svg": "/myFirstReactjs/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.3893c584.js",
-    "static/css/2.234d03a3.chunk.css",
-    "static/js/2.fc866eb8.chunk.js",
+    "static/css/2.646a3b66.chunk.css",
+    "static/js/2.5d7fae6b.chunk.js",
     "static/css/main.023ac346.chunk.css",
-    "static/js/main.caa95571.chunk.js"
+    "static/js/main.50d5d07e.chunk.js"
   ]
 }
