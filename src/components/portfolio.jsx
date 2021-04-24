@@ -5,17 +5,7 @@ import {Tabs, Tab, Panel, useTabState, usePanelState} from '@bumaga/tabs'
 
 class PortFolio extends React.Component {
     render() {
-        // const Tab = ({ children }) => {
-        //     const { onClick } = useTabState();
-        //
-        //     return <button onClick={onClick}>{children}</button>;
-        // };
-        //
-        // const Panel = ({ children }) => {
-        //     const isActive = usePanelState();
-        //
-        //     return isActive ? <p className="active">{children}</p> : null;
-        // };
+
         return (
             <div className="container portFolioSection">
                 <div className="row">
