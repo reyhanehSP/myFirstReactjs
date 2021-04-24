@@ -8,6 +8,7 @@ var cssnano = require('gulp-cssnano');
 var imagemin = require('gulp-imagemin');
 var concat = require('gulp-concat');
 var stripDebug = require('gulp-strip-debug');
+var deploy      = require('gulp-gh-pages');
 
 gulp.task('sass', function(){
     return gulp.src('assets/app/scss/app.scss')
@@ -15,6 +16,10 @@ gulp.task('sass', function(){
         .pipe(gulpIf('*.css', cssnano()))
         .pipe(gulp.dest('./dest/css'))
 
+});
+gulp.task('deploy', function () {
+    return gulp.src("assets/**/*")
+        .pipe(deploy())
 });
 
 gulp.task('css', function () {
